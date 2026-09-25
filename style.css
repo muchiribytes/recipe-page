@@ -248,3 +248,40 @@ td {
 .attribution a:hover {
   text-decoration: underline;
 }
+
+/* Desktop Styles (1440px Viewport) */
+@media (min-width: 48rem) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-block-size: 100vh;
+    padding-block: 7.75rem;
+  }
+
+  .recipe-card {
+    max-width: 46rem;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+  }
+
+  .recipe-hero img {
+    border-radius: 0.75rem;
+  }
+
+  .recipe-content {
+    padding-block-start: 2.5rem;
+    padding-inline: 0;
+    padding-block-end: 0;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    max-width: none;
+    letter-spacing: normal;
+  }
+}
