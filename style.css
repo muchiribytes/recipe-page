@@ -131,3 +131,19 @@ header p {
   letter-spacing: -0.015em;
   max-width: 19rem;
 }
+
+/* Preparation Box */
+.prep-time {
+  background-color: var(--bg-prep);
+  padding-block: 1.5rem;
+  padding-inline: 1.75rem;
+  border-radius: 0.75rem;
+  margin-block-end: 2rem;
+}
+
+.prep-time h2 {
+  color: var(--text-prep-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-block-end: 1rem;
+}
