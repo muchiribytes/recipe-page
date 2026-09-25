@@ -147,3 +147,59 @@ header p {
   font-weight: 600;
   margin-block-end: 1rem;
 }
+
+section h2 {
+  font-family: var(--ff-heading);
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: var(--text-section-heading);
+  margin-block-end: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-block-start: 1px solid var(--border-divider);
+  margin-block: 2rem;
+}
+
+/* Shared List Layout */
+.prep-time ul,
+section ul,
+section ol {
+  padding-inline-start: 1.5rem;
+}
+
+.prep-time li,
+section li {
+  padding-inline-start: 1rem;
+  margin-block-end: 0.5rem;
+}
+
+.prep-time li:last-child {
+  margin-block-end: 0;
+}
+
+/* List Markers */
+.prep-time li::marker {
+  color: var(--marker-prep);
+  font-size: 0.8rem;
+}
+
+section ul li::marker {
+  color: var(--marker-bullet);
+  font-size: 0.8rem;
+}
+
+section ol li::marker {
+  color: var(--marker-bullet);
+  font-weight: 700;
+}
+
+/* Generic Section Spacing */
+section {
+  margin-block-end: 2rem;
+}
+
+section:last-of-type {
+  margin-block-end: 0;
+}
